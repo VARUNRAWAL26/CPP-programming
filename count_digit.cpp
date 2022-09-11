@@ -7,7 +7,6 @@ Write a function that returns the number of times digit is found in the number. 
 
 Input Format
 Integer (A number) Integer (A digit)
-
 Constraints
 0 <= N <= 1000000000 0 <= Digit <= 9
 
@@ -26,12 +25,11 @@ The digit can be from 0 to 9. Assume decimal numbers.In the given case digit 3 i
 
 CODE
 */
-
 #include<iostream>
 using namespace std;
 int main()
 {
-	int a, b, count=0,n;
+    int a, b, count=0,n;
     cin>>a;
     cin>>b;
     while(a>0)
@@ -46,5 +44,5 @@ int main()
             a=a/10;
     }
     cout<<count;
-	return 0;
+    return 0;
 }
