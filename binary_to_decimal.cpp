@@ -3,8 +3,8 @@ Take N (number in binary format). Write a function that converts it to decimal f
 
 Input Format
 Constraints
-
 0 < N <= 1000000000
+
 Output Format
 
 Sample Input
@@ -21,7 +21,7 @@ code
 #include<iostream>
 using namespace std;
 int main() {
-	int bin,i=0,n,dec=0,m=1;
+    int bin,i=0,n,dec=0,m=1;
     cin>>bin;
     while(bin>0)
     {
