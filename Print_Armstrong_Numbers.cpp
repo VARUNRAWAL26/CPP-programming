@@ -8,8 +8,8 @@ Write a function which prints all armstrong numbers between N1 and N2 (inclusive
 
 Input Format
 Constraints
-
 0 < N1 < 100 N1 < N2 < 10000
+
 Output Format
 
 Sample Input
@@ -32,7 +32,6 @@ int main()
     int n1, n2;
     cin>>n1>>n2;
     int b=n1;
-
     while(b<=n2)
     {
         int i=b;
@@ -55,7 +54,6 @@ int main()
         {
             cout<<b<<endl;
         }
-
         b=b+1;
     }
     return 0;
