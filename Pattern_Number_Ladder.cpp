@@ -7,8 +7,8 @@ Take N (number of rows), print the following pattern (for N = 4)
 
 Input Format
 Constraints
-
 0 < N < 100
+
 Output Format
 
 Sample Input
